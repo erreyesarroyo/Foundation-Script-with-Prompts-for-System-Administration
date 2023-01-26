@@ -3,8 +3,10 @@
 #begin error catching#
  try {
 
+while ($UserInput-5)
  #Used variable for switch statement#
 $opt = Read-Host -Prompt 'Enter Number 1-5::: 1=Log Collection, 2=List of Files Out to C916Contents, 3=Current CPU and Memory Usage, 4=List of processes, 5=Exit'
+
 
 switch($opt) {
 "1" {
